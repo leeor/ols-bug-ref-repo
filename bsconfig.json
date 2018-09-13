@@ -1,0 +1,25 @@
+{
+  "name": "ols-ref-repo",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "entries": [
+    {
+      "backend": "bytecode",
+      "main-module": "Example"
+    },
+    {
+      "backend": "native",
+      "main-module": "Example"
+    }
+  ],
+  "bs-dependencies": [
+    "rex-json"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
