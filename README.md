@@ -10,3 +10,4 @@ Error: The files <project_root>/node_modules/rex-json/lib/ocaml/native/Json.cmi 
 ocaml/string.cmi       make inconsistent assumptions over interface String
 ```
 
+The `javascript` branch is building to JavaScript instead of native, and no errors are generated.
